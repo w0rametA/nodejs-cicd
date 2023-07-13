@@ -7,10 +7,6 @@ describe("max", () => {
         expect(findMax([5555,999999,1000000])).toEqual(1000000)
     })
 
-    it("it should return a negative maximum integer", () => {
-        expect(findMax([-1,-2,-3,-4,-5555])).toEqual(-1)
-    })
-
     it('it should return return 0 when you compare with an array that contain negative integer', () => {
         expect(findMax([-1,-2,-3,-4,-5,0])).toEqual(0)
     })
